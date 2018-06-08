@@ -1,6 +1,16 @@
 <div id="article-banner">
   <h2><%- page.title %></h2>
-  <p class="post-date"><%- date(page.date, "YYYY-MM-DD") %></p>
+  <p class="post-date"><%- date(page.date, "YYYY-MM-DD") %>
+    <% if(config.leancloud_visitors.enable){ %>
+      <span id="<%- url_for(page.path) %>" class="leancloud_visitors" data-flag-title="<%- page.title %>">
+          <span class="post-meta-divider">&emsp;</span>
+          <span class="post-meta-item-icon">
+            <i class="fa fa-eye"></i>
+          </span>
+          <span class="leancloud-visitors-count"></span>
+      </span>
+    <% } %>
+  </p>
   <div class="arrow-down">
     <a href="javascript:;"></a>
   </div>

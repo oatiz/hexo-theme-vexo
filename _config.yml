@@ -1,7 +1,7 @@
 author: oatiz # 作者
 description: oatiz's blog
 keyword: JAVA, GOLANG
-favicon: https://raw.githubusercontent.com/oatiz/oatiz.github.io/master/brick.png
+favicon: https://coding.net/u/oatiz/p/oatiz/git/raw/master/images/brick.png
 
 excerpt_link: Read more
 
@@ -43,7 +43,7 @@ baidu_id:
 
 about: 
   banner: http://file.muyutech.com/about.jpg
-  avatar: https://raw.githubusercontent.com/oatiz/oatiz.github.io/master/avatar.jpg
+  avatar: https://coding.net/u/oatiz/p/oatiz/git/raw/master/images/avatar.jpg
   description: "Stay hungry, Stay foolish"
   #weibo_username: yanm1ng
   #twitter_username: yanm1ng
